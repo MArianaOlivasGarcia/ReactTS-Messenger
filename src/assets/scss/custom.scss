@@ -1,0 +1,35 @@
+
+
+$primary: #3498da; 
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+:root {
+    --navbar-height: 54px;
+    --chat-container-height: calc(100% - calc( 2 * var(--navbar-height) ) );
+}
+
+nav {
+    height: var(--navbar-height) !important;
+}
+
+div.inputChatContainer {
+    height: var(--navbar-height) !important;
+}
+
+
+div.chatContainer {
+    height: var(--chat-container-height) !important;
+}
+
+
+
+button.btn-primary,
+button.btn-primary:hover {
+    color: white !important;
+}
+
+.active-chat {
+    background-color: #51A3D4 !important;
+}
